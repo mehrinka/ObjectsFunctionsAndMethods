@@ -104,6 +104,7 @@ def turtle3():
     maja.draw_circle(50)
     maja.end_fill()
 
+
 def turtle4():
     object = rg.SimpleTurtle('turtle')
     object.pen = rg.Pen('blue', 30)
@@ -112,6 +113,7 @@ def turtle4():
     object.forward(100)
     object.left(90)
     object.forward(300)
+
 
 def turtle5():
     object2 = rg.SimpleTurtle('circle')
