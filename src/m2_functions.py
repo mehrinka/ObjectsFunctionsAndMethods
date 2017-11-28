@@ -104,9 +104,8 @@ def turtle3():
 
 def turtle4():
     object = rg.SimpleTurtle('turtle')
-    rg.Pen('aquamarine',100)
+    objectPen = rg.Pen('aquamarine', 30)
 
-    object.pen_down()
     object.forward(100)
     object.left(90)
     object.forward(300)
