@@ -96,8 +96,8 @@ def circle_and_rectangle():
     radius = 30
 
     circle = rg.Circle(center, radius)
-    circle.attach_to(window)
     circle.fill_color = 'blue'
+    circle.attach_to(window)
 
 
     corner1 = rg.Point(200, 200)
