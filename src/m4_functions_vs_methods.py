@@ -85,6 +85,8 @@ def main():
 
     try_methods()
 
+    try_functions()
+
     try_methods_and_functions()
 
     window.close_on_mouse_click()
@@ -198,10 +200,12 @@ def try_functions():
      -- One jumps to (-50, 50), then moves (while drawing) to (100, 100)
     """
 
-
+    jump_and_move_turtle(200, 100, 300, 30)
+    jump_and_move_turtle(100, 200, 0, 0)
+    jump_and_move_turtle(-50, 50, 100, 100)
 
     ####################################################################
-    # TODO: 4. Implement this function, per its doc-string above.
+    # Done: 4. Implement this function, per its doc-string above.
     #    Put a statement in   main   to test this function
     #    (by calling this function).  IMPORTANT, IMPORTANT, IMPORTANT:
     #    Keep reading the rest of this TO DO before doing the above!
@@ -266,10 +270,6 @@ def try_methods_and_functions():
     turtle2.backward(200)
     turtle2.draw_circle(30)
     turtle2.draw_square(50)
-
-
-
-
 
     ####################################################################
     # Done: 5. Implement this function, per its doc-string above.
